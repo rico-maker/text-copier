@@ -1,2 +1,9 @@
 # text-copier
-A simple text copier/ um simples copiador de texto
+English:
+A simple text copier, The focus of this code
+is to use the copy text function () which can
+be used in different ways.
+
+Português:
+Um copiador de texto simples, o foco deste código é usar a função copiar texto () que pode
+ser usado de diferentes maneiras.
