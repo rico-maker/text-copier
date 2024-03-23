@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Copy</title>
+
+</head>
+
+<body>
+ <div>
+  <h1 class="title">Copy</h1>
+  <input type="text" class="text" id="inputText">
+   <link rel="stylesheet" href="style.css">
+  <button onclick="copytxt()">Copy</button>
+ </div>
+  <script>
+    function copytxt() {
+      const inputText = document.getElementById("inputText");
+      navigator.clipboard.writeText(inputText.value)
+        .then(() => {
+          alert('Texto copiado para a área de transferência');
+        })
+        .catch(err => {
+          alert('Algo não ocorreu como o esperado', err);
+        });
+    }
+  </script>
+</body>
+
+</html>
